@@ -1,3 +1,5 @@
+# ARGOS DB 2 Coming Soon!
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/FDA-ARGOS2/argosdb/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.

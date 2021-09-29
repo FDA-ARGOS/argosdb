@@ -1,17 +1,16 @@
 {
-"bco_id": "http://data.glygen.org/GLY_000344",
-"checksum": "bd2416ee5de082dc1c7679db4027a648",
-"bco_spec_version": "1.3.0",
+"object_id": "https://portal.biochemistry.gwu.edu/BCO_000001/1.5",
+"etag": "bd2416ee5de082dc1c7679db4027a648",
+"spec_version": "https://w3id.org/ieee/ieee-2791-schema/2791object.json",
 "provenance_domain": {
 "name": "HCV1a Proteome Masterlist (UniProtKB)",
-"version": "1.9.9",
+"version": "1.9",
 "license": "https://creativecommons.org/licenses/by/4.0/",
 "created": "2020-03-12T11:05:17.851540",
 "modified": "2021-02-22T17:25:44.293325",
 "contributors": [
 {
 "name": "Jeet Vora",
-"orcid": "",
 "affiliation": "The George Washington University",
 "contribution": [
 "createdBy"
@@ -20,7 +19,6 @@
 },
 {
 "name": "Rahi Navelkar",
-"orcid": "",
 "affiliation": "The George Washington University",
 "contribution": [
 "createdBy"
@@ -29,7 +27,6 @@
 },
 {
 "name": "Robel Kahsay",
-"orcid": "",
 "affiliation": "The George Washington University",
 "contribution": [
 "createdBy"
@@ -38,7 +35,6 @@
 },
 {
 "name": "Maria Martin",
-"orcid": "",
 "affiliation": "EMBL-EBI-UniProt",
 "contribution": [
 "contributedBy"
@@ -47,7 +43,6 @@
 },
 {
 "name": "Preethi Vasudev",
-"orcid": "",
 "affiliation": "EMBL-EBI-UniProt",
 "contribution": [
 "contributedBy"
@@ -59,18 +54,24 @@
 "usability_domain": [
 "The Hepatitis C virus (genotype 1a, isolate H) Proteome Materlist dataset contains hcv1a [taxid:11108] UniProtKB canonical accessions mapped to the reviewed (SwissProt) and unreviewed (TrEMBL) UniProtKB isoforms via gene grouping. The dataset is derived from 2020_06 UniProtKB release. If you use this dataset please provide proper attribution to EMBL-EBI-UniProtKB and GlyGen. Please note GlyGen has removed F protein (P0C045 (F_HCV77)) from its masterlist of accessions."
 ],
-"extension_domain": {
+	"extension_domain": [
+		{
+			"extension_schema": "https://w3id.org/biocompute/extension_domain/1.1.0/scm/scm_extension.json",
+			"scm_extension": {
+				"scm_repository": "https://github.com/FDA-ARGOS2/argosdb",
+				"scm_type": "git",
+				"scm_commit": "2a9a34555b4d4f2c78ca1e848a45370c0fa267b8",
+				"scm_path": "FDA-ARGOS2/argosdb",
+				"scm_preview": "https://github.com/FDA-ARGOS2/argosdb"
+			}
+		},
+		{
+			"extension_schema": "http://www.w3id.org/biocompute/extension_domain/1.1.0/dataset/dataset_extension.json",
+			"dataset_extension": {
 "additional_license": {
 "data_license": "https://creativecommons.org/licenses/by/4.0/",
 "script_license": "https://www.gnu.org/licenses/gpl-3.0.en.html"
-},
-"fhir_extension": [],
-"scm_extension": {
-"scm_repository": "",
-"scm_path": "",
-"scm_type": "git",
-"scm_commit": ""
-},
+				},
 "dataset_categories": [
 {
 "category_value": "Hepatitis C virus (genotype 1a, isolate H)",
@@ -96,8 +97,8 @@
 "category_value": "internal",
 "category_name": "scope"
 }
-]
-},
+]}}
+],
 "description_domain": {
 "keywords": [
 "canonical accessions",
@@ -109,18 +110,15 @@
 "pipeline_steps": [
 {
 "name": "make-protein-dataset.py",
-"version": "",
 "step_number": 1,
 "input_list": [
 {
-"access_time": "",
 "uri": "https://data.glygen.org/ln2wwwdata/source/uniprot-proteome-hepatitis-c-virus-1a.nt",
 "filename": "uniprot-proteome-hepatitis-c-virus-1a.nt"
 }
 ],
 "output_list": [
 {
-"access_time": "",
 "uri": "https://data.glygen.org/ln2wwwdata/reviewed/hcv1a_protein_masterlist.csv",
 "filename": "hcv1a_protein_masterlist.csv"
 }
@@ -139,8 +137,6 @@
 "name": "Python",
 "version": "2.7.5",
 "uri": {
-"access_time": "",
-"sha1_chksum": "",
 "uri": "https://www.python.org/download/releases/2.7.5/"
 }
 }
@@ -148,27 +144,16 @@
 "script": [
 {
 "uri": {
-"access_time": "",
-"sha1_chksum": "",
 "uri": "https://github.com/GW-HIVE/glygen-backend-integration/blob/master/pipeline/integrator/make-protein-dataset.py",
 "filename": "make-protein-dataset.py"
 }
 }
 ]
 },
-"parametric_domain": [
-{
-"step": "",
-"param": "",
-"value": ""
-}
-],
 "io_domain": {
 "input_subdomain": [
 {
 "uri": {
-"access_time": "",
-"sha1_chksum": "",
 "uri": "https://data.glygen.org/ln2wwwdata/source/uniprot-proteome-hepatitis-c-virus-1a.nt",
 "filename": "uniprot-proteome-hepatitis-c-virus-1a.nt"
 }
@@ -178,8 +163,6 @@
 {
 "mediatype": "csv",
 "uri": {
-"access_time": "",
-"sha1_chksum": "",
 "uri": "http://data.glygen.org/ln2wwwdata/reviewed/hcv1a_protein_masterlist.csv",
 "filename": "hcv1a_protein_masterlist.csv"
 }
@@ -187,17 +170,10 @@
 {
 "mediatype": "csv",
 "uri": {
-"access_time": "",
-"sha1_chksum": "",
 "uri": "http://data.glygen.org/ln2wwwdata/reviewed/hcv1a_protein_masterlist.stat.csv",
 "filename": "hcv1a_protein_masterlist.stat.csv"
 }
 }
 ]
-},
-"error_domain": {
-"empirical_error": {},
-"algorithmic_error": {},
-"emperical_error": {}
 }
 }

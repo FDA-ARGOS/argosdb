@@ -1,0 +1,52 @@
+baseurl = "/"
+publishDir = "public"
+title = "ARGOS DB 2"
+author = "ARGOS DB 2"
+canonifyurls = true
+languagecode = "en"
+paginate = 3
+theme = "hugo-argos"
+
+enableEmoji = true
+hasCJKLanguage = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+faviconfile = "images/favicon.png"
+posts_navigation = true
+uselatex = false
+highlightjs = false
+highlightjslanguages = ["r"]
+progressively = false
+google_tag_manager = ""
+
+contact = "mailto:ssingleton@gwu.edu?cc=mazumder@gwu.edu?subjsect=Mail from Our Site"
+github = "FDA-ARGOS2"
+# twitter = "FDA-ARGOS2"
+# linkedin = ""
+
+
+[[menu.primary]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.primary]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2
+
+
+[[menu.primary]]
+identifier = "resources"
+name = "Resources"
+url = "/resources/"
+weight = 3

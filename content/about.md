@@ -13,63 +13,175 @@ menu: "main"
 ## What is ARGOS2?
 "FDA and collaborators established the publicly available database, FDA dAtabase for Regulatory-Grade micrObial Sequences (FDA-ARGOS), to fill these defined quality gaps for diagnostic relevant genomes. The goal of FDA-ARGOS is to generate and make publicly available near finished genomes of sufficient quality for diagnostic purposes. Here, we present the first subset of 487 FDA-ARGOS genomes with NCBI accessions""
 
+<div class="alert alert-success" role="alert">
+
+Please See the Nature Communications Paper for details on the first iteration of ARGOS
+<br/><br/>
 Sichtig, H., Minogue, T., Yan, Y. et al. FDA-ARGOS is a database with public quality-controlled reference genomes for diagnostic use and regulatory science. Nat Commun 10, 3313 (2019). https://doi.org/10.1038/s41467-019-11306-6
+</div>
 
 ## Who are we?
 
 <div>
-<div class="row">
-	
+
+<div class="row">	
+
 <div class="col-sm-6">
-	
+<div class="text-left">
+<img src="/images/Chu.jpg" class="mx-auto d-block" width="80%" alt="">
+<br>
+<span class=leadershipsubtitlecn>
+Robert Chu<br>
+<b> Chief Executive Officer, Embleema Inc.</b><br>
+</span>
+
+</div>
+</div>
+
+<div class="col-sm-6">
 <div class="text-left">
 <img src="/images/Simonyan.png" class="mx-auto d-block" width="80%" alt="">
 <br>
 <span class=leadershipsubtitlecn>
 Vahan Simonyan<br>
-<b>Senior Director of Bioinformatics, CRISPR Therapeutics</b><br>
+<b> Chief Scientific Officer, Embleema Inc.</b><br>
 </span>
 
-<span>
-<small>
-<i>Former Lead Scientist and Director of Bioinformatics at U.S. Food and Drug Administration</i><br>
-<i>Co-developer of HIVE platform for bioinformatics</i><br>
-<i>Co-founder of BioCompute</i><br>
-</small>
-</span>
-
-<br>
-
-<span><small>
-Dr. Vahan Simonyan has a diverse academic background, with an MS in Physical Organic Chemistry, a Ph.D. in Quantum Physics and Mathematics, and post-doctoral training in Nanotechnology and Quantum Statistical Thermodynamics. He's authored over 60 publications on topics ranging from chemistry and genetics to physics and quantum mechanics, and served as a principal investigator on large national and international grants. In 2001, Dr. Simonyan began to focus his career on biotechnology and biomedical informatics. He has served as Lead Scientist, Principal Investigator, and the R&D Director of Bioinformatics for the U.S. Food and Drug Administration (FDA). As the Director, Dr. Simonyan developed and donated the codebase for the High-performance Integrated Virtual Environment (HIVE) as a mechanism to accept high throughput sequencing data at the FDA. It was in this capacity that he co-developed BioCompute.
-Currently, Dr. Simonyan is the Senior Director of Bioinformatics at CRISPR Therapeutics, where he establishes data and process infrastructures for analysis of healthcare and biomedical information from diverse data-sources, in order to discover new genetic targets through the understanding of underlying molecular machinery in cells and control networks. He also serves as adjunct faculty at George Washington University, and has served as the Organizer and Chairman of international conferences on high throughput sequencing standardization. Dr. Simonyan is a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5510742/">Co-author of the first BioCompute publication</a>.
-</small></span>
+</div>
 </div>
 
 </div>
+<br/>
+
+<div class="row">
 
 <div class="col-sm-6">
-	
+<div class="text-left">
+<img src="/images/Schmidt.jpg" class="mx-auto d-block" width="80%" alt="Nicolas Schmidt">
+<br>
+<span class=leadershipsubtitlecn>
+Nicolas Schmidt<br>
+<b> Chief Product Officer, Embleema Inc.</b><br>
+</span>
+
+</div>
+</div>
+
+<div class="col-sm-6">	
 <div class="text-left">
 <img src="/images/Mazumder.png" class="mx-auto d-block" width="80%" alt="Raja Mazumder">
 <br>
 Raja Mazumder<br>
 <span class=leadershipsubtitlecn>
-<b>Associate Professor of Biochemistry and Molecular Medicine, School of Medicine and Health Sciences, George Washington University</b><br>
+<b>Professor of Biochemistry and Molecular Medicine</b><br>
 </span>
-<span>
-<small>
+<span><small>
 <i>Co-director of the McCormick Genomic and Proteomic Center</i><br>
-<i>Co-developer of HIVE platform for bioinformatics</i><br>
-<i>Co-founder of BioCompute</i><br>
-</small>
-</span>
-<span>
-<small>
-Dr. Mazumder is an Associate Professor of Biochemistry and Molecular Medicine and Co-Director of The McCormick Genomic Proteomic Center at The George Washington University (GW). While working at National Center for Biotechnology Information (NCBI) at NIH, UniProt and Protein Information Resource (PIR), Dr. Mazumder worked closely with colleagues in developing international molecular biology resources and using these resources to identify therapeutics, diagnostics and vaccines targets. Through NIH, NSF, FDA and industry funding he is currently involved in genomic and bioinformatics research in cancer biology, glycobiology, metagenomics and NGS standards development. Dr. Mazumder is the PD/PI of High Performance Integrated Virtual Environment (HIVE). HIVE is approved for use in a regulatory environment at US FDA. In addition to his research activities he mentors Ph.D. and M.S. students and directs the Bioinformatics M.S. graduate program track at GW. Dr. Mazumder is a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5510742/">Co-author of the first BioCompute publication</a>.
-</small>
-</span>
+</small></span>
+</div>
 </div>
 
 </div>
+
+<br/>
+
+<div class="row">
+
+<div class="col-sm-6">
+<div class="text-left">
+<img src="/images/Crandall.jpg" class="mx-auto d-block" width="80%" alt="Keith Crandall">
+<br>
+Keith Crandal
+</span>
+<br>
+<span>
+<small>
+<i>Director, Computational Biology Institute  </i><br>
+</small>
+<b>George Washington University</b><br>
+</span>
+</span>
+</div>
+</div>
+	
+<div class="col-sm-6">
+<div class="text-left">
+<img src="/images/Pond.jpg" class="mx-auto d-block" width="80%" alt="Sergei Pond">
+<br>
+Sergei Pond
+</span>
+<br>
+<span>
+<small>
+<i>Professor  </i><br>
+</small>
+<b>Department of Biology, Temple University</b><br>
+</span>
+</span>
+</div>
+</div>
+
+</div>
+
+<br/><br/>
+
+<div class="row">
+
+<div class="col-sm-6">
+<div class="text-left">
+<img src="/images/Keeney.png" class="mx-auto d-block" width="80%" alt="Jonathon Keeney">
+<br>
+<span class=leadershipsubtitlecn>
+Jonathon Keeney<br>
+<b> Assistant Research Professor </b><br>
+</span>
+
+<span><small>
+<i></i><br>
+<i>George Washington University</i><br>
+</small></span>
+
+</div>
+</div>
+
+<div class="col-sm-6">
+<div class="text-left">
+<img src="/images/Singleton.jpeg" class="mx-auto d-block" width="80%" alt="Stephanie Singleton">
+<br>
+Stephanie Singleton
+</span>
+<br>
+<span>
+<small>
+<i>Senior Research Associate  </i><br>
+</small>
+<b>HIVE Lab, George Washington University</b><br>
+</span>
+</span>
+</div>
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="col-sm-6">
+<div class="text-left">
+<img src="/images/King.png" class="mx-auto d-block" width="80%" alt="Charles Hadley King">
+<br>
+Charles Hadley King
+</span>
+<br>
+<span>
+<small>
+<i>Senior Research Associate  </i><br>
+</small>
+<b>HIVE Lab, George Washington University</b><br>
+</span>
+</span>
+</div>
+</div>
+
+</div>
+
 </div>

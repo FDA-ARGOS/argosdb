@@ -179,10 +179,6 @@ div.alert p {
 }
 
 /* blog post typography */
-.alert-success {
-  background-color: #e9ecef;
-  border-color: #212529;
-}
 
 .content .blog-post-title {
   font-size: 2.5rem;

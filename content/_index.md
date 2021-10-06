@@ -11,8 +11,11 @@ menu: "main"
 <br><br>
 
 <div class="alert alert-success" role="alert">
+September 21, 2021 
 
-For effective diagnosis and understanding of infectious disease through next generation sequencing (ID-NGS), an extensive and high quality reference database is key – FDA ARGOS offers a high quality publicly available database for Reference Grade pathogen sequences.
+## An Embleema and GW-led Consortium Receives $1.9M Contractto Advance the FDA’s ARGOS Project  
+
+The updated ARGOS Database will enhance the biomedical research community’s ability to combat global biological threats, aiming to mitigate future infectious disease outbreaks while fast-tracking public health response initiatives, diagnostics tools, and drug development. 
 
 </div>
 

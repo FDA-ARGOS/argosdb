@@ -26,7 +26,7 @@ highlightjslanguages = ["r"]
 progressively = false
 google_tag_manager = ""
 
-contact = "mailto:ssingleton@gwu.edu?cc=mazumder@gwu.edu?subject=Mail from Our Site"
+contact = "mailto:ssingleton@gwu.edu?cc=mazumder@gwu.edu&subject=Mail from Our Site"
 github = "FDA-ARGOS2"
 # twitter = "FDA-ARGOS2"
 # linkedin = ""

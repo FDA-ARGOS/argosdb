@@ -91,7 +91,7 @@ Raja Mazumder<br>
 <div class="text-left">
 <img src="/images/Crandall.jpg" class="mx-auto d-block" width="80%" alt="Keith Crandall">
 <br>
-Keith Crandal
+Keith Crandall
 </span>
 <br>
 <span>

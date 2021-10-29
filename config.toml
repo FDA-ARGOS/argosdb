@@ -1,7 +1,7 @@
 baseurl = "/"
 publishDir = "public"
-title = "ARGOS DB 2"
-author = "ARGOS DB 2"
+title = "ARGOS DB"
+author = "ARGOS DB"
 canonifyurls = true
 languagecode = "en"
 paginate = 3
@@ -27,8 +27,8 @@ progressively = false
 google_tag_manager = ""
 
 contact = "mailto:ssingleton@gwu.edu?cc=mazumder@gwu.edu&subject=Mail from Our Site"
-github = "FDA-ARGOS2"
-# twitter = "FDA-ARGOS2"
+github = "FDA-ARGOS"
+# twitter = "FDA-ARGOS"
 # linkedin = ""
 
 

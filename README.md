@@ -1,4 +1,4 @@
-# ARGOS2 DB
+# ARGOS DB
 Static site for https://argosdb.org generated with the [Hugo](https://gohugo.io/) framework.
 
 ## Updating Site

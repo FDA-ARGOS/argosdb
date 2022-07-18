@@ -9,6 +9,8 @@ menu: "main"
 </div>
 
 <br><br>
+The FDA-Argos database is an infectious disease pathogen genomic sequence resource developed by the FDA in response to the need for good quality pathogenic reference sequences. For more information visit our resources on our home page.
+<br><br>
 
 <div class="alert alert-success" role="alert">
 September 21, 2021 

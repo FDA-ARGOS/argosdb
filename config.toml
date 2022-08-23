@@ -50,3 +50,9 @@ identifier = "resources"
 name = "Resources"
 url = "/resources/"
 weight = 3
+
+[[menu.primary]]
+identifier = "data"
+name = "ARGOS Data"
+url = "https://data.argosdb.org/"
+weight = 4

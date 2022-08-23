@@ -146,14 +146,14 @@ Jonathon Keeney<br>
 
 <div class="col-sm-6">
 <div class="text-left">
-<img src="/images/Singleton.jpeg" class="mx-auto d-block" width="80%" alt="Stephanie Singleton">
+<img src="/images/steph_photo_argos.jpg" class="mx-auto d-block" width="80%" alt="Stephanie Singleton">
 <br>
 Stephanie Singleton
 </span>
 <br>
 <span>
 <small>
-<i>Senior Research Associate  </i><br>
+<i>Senior Research Associate / Microbial Computational Biologist  </i><br>
 </small>
 <b>HIVE Lab, George Washington University</b><br>
 </span>

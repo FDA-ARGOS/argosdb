@@ -146,7 +146,7 @@ Jonathon Keeney<br>
 
 <div class="col-sm-6">
 <div class="text-left">
-<img src="/images/steph_photo_argos.jpg" class="mx-auto d-block" width="80%" alt="Stephanie Singleton">
+<img src="/images/steph_photo_argos.png" class="mx-auto d-block" width="80%" alt="Stephanie Singleton">
 <br>
 Stephanie Singleton
 </span>

@@ -1,15 +1,31 @@
 # ARGOS DB
-Static site for https://argosdb.org generated with the [Hugo](https://gohugo.io/) framework.
 
-## Updating Site
-- Pull this repository to a local environment
-- Make sure [Hugo](https://gohugo.io/getting-started/quick-start/) is installed in this environment
-- Run `hugo server` and open http://localhost:1313/
-- Refresh browser to see changes
-- Commit changes and push back to GitHub
-- Log in to the static site server (IYKYK)
-- Use `git pull` in the argosdb directory in your home folder or `git clone https://github.com/FDA-ARGOS2/argosdb.git` if it does not already exist
-- Run `hugo -D` to create the `./public` folder for static pages
-- Copy the `./public` folder to `/var/www/html/argosdb/public`: 
-`sudo cp -r public /var/www/html/argosdb/.`
+## How to make changes/update Argos Site?
+#### 1. Fork the Repository.
+#### 2. Clone the Repository to your Local Environment.
 
+#### 3. Open up the project in your favorite text editor, select the file you want to contribute to, and make your changes.
+
+#### 4. Add your modified files to Git.
+```
+git add path/to/filename.ext
+```
+#### You can also add all unstaged files using:
+```
+git add .
+```
+#### Note: using a ```git add .``` will automatically add all files. You can do a ```git status``` to see your changes, but do it before ```git add.```
+
+#### 5. Commit your changes using a descriptive commit message.
+```
+git commit -m "Brief Description of Commit"
+```
+#### 6. Verify that the origin is your own forked branch and not the main repository.
+```
+git remote --verbose
+```
+#### 7. Push your commits to your GitHub Fork:
+```
+git push -u origin your-branch-name
+```
+#### 8. Submit a pull request. Within GitHub, visit this main repository and you should see a banner suggesting that you make a pull request. While you're writing up the pull request, you can add ```Closes #XXX``` in the message body where ```#XXX``` is the issue number you're fixing. Therefore, an example would be ```Closes #42``` would close issue ```#42```.

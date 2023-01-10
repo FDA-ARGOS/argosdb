@@ -1,4 +1,5 @@
 {
     "server":"tst",
-    "app_port":"8080"
+    "app_port":"5090",
+    "data_path":"/data/shared/argosdb/"
 }

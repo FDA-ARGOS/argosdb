@@ -1,3 +1,5 @@
+TOKEN
+sync.sh
+
 .DS_Store
-public*
-hugo_content/static/*
+

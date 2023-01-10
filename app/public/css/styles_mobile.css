@@ -1,0 +1,85 @@
+.globalheader {
+    min-height:60px;
+    width:94%;
+    margin:10px 3% 0px 3% !important;
+    border:0px dashed red;
+}
+
+.globalheader_logo {
+    width:150px;
+    height:55px;
+    margin:0px 0px 0px 0px;
+    border:0px dashed orange;
+}
+
+.globalheader_logo_img {
+    width:30px;
+    margin:0px 0px -15px 5px;
+    border:0px dashed orange;
+
+}
+.globalheader_logo_txt {
+    width:100%;
+    border:0px dashed red;
+}
+
+.globalheader_logo_txt_one {
+    font-size:27px;
+    border:0px dashed blue;
+}
+.globalheader_logo_txt_two {
+    font-size:27px;
+    padding:0px 0px 0px 0px !important;
+    border:0px dashed blue;
+}
+.globalheader_global_links {
+    width:40%;
+    margin:10px 0% 0px 0%;
+    border:0px dashed orange;
+}
+.globalheader_icon {
+    font-size: 20px !important;
+    margin: 3px 0px 0px 13px;
+    border:0px dashed red;
+}
+
+
+.searchbox_div_two {
+    width:96%;
+    margin:2%;
+    border:0px dashed orange;
+}
+
+
+.filter_div_three {
+    display: none;
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    margin:0px;
+    background: #f6f6f6;
+    border-top:1px solid #ccc;
+}
+
+
+.filter_div_four {
+    display:block;
+    float:left;
+    margin:10px 10px 10px 10px;
+    padding:10px; 
+    border:1px solid #ddd;
+    font-size:14px; 
+    border-radius:10px;
+}
+
+
+
+div.pagecn{
+    width:90%;
+    margin:0px 5% 500px 5%;
+    font-size:15px;
+    padding:0px;
+    z-index:1;
+ }
+
+

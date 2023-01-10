@@ -1,0 +1,15 @@
+:root {
+  /* fonts */
+  --font-arial-unicode-ms: "Arial Unicode MS";
+
+  /* font sizes */
+  --font-size-2xs: 20px;
+  --font-size-xs: 32px;
+  --font-size-sm: 40px;
+  --font-size-base: 96px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #464b6a;
+  --color-gray-200: rgba(255, 255, 255, 0.6);
+}

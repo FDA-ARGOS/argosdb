@@ -1,5 +1,19 @@
-{
-    "server":"tst",
+{  
+  "server":"test",
+  "dev":{
     "app_port":"5090",
-    "data_path":"/data/shared/argosdb/"
+    "data_path":"/data/shared/argosdb/dev/"
+  }, 
+  "test":{
+    "app_port":"5090",
+    "data_path":"/data/shared/argosdb/test/"
+  },
+  "beta":{
+    "app_port":"5990",
+    "data_path":"/data/shared/argosdb/beta/"
+  },
+  "prd":{
+    "app_port":"5090",
+    "data_path":"/data/shared/argosdb/prd/"
+  }
 }

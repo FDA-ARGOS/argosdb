@@ -16,12 +16,16 @@ def main():
 
     config_obj = json.loads(open("./conf/config.json", "r").read())
     server = config_obj["server"]
-
-    image = "argosdb_%s_app" % (server) 
+    if server not in config_obj:
+        print ("bad value for server parameter in conf/config.json file")
+        exit()
+    
+    port = config_obj[server]["app_port"]
+    data_path = config_obj[server]["data_path"]
+  
+    image = "argosdb_%s_app" % (server)
     container = "running_" + image
-    port = config_obj["app_port"]
-    data_path = config_obj["data_path"]
-   
+    
 
     with open(".env.production", "w") as FW:
         FW.write("REACT_APP_SERVER=%s\n" % (server))

@@ -1,5 +1,4 @@
 TOKEN
 sync.sh
-
 .DS_Store
-
+app/node_modules*
